@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 8px 20px;
+}
+.navbar a:hover{
+    color: #000;
+    background-color: rgb(211, 208, 208);
+}
+.navbar .fa-magnifying-glass{
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+    padding: 14px 20px;
+}
+.navbar .fa-magnifying-glass:hover{
+    background-color: rgb(247, 59, 59);
+    color: #fff;
+}
+
+.banner img{
+    width: 100%;
+}
+.band-section{
+    padding: 64px 16px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+.band-section h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 10px 0;
+}
+.band-section p{
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+.band-section .sm-title{
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+}
+.members{
+    padding: 32px 0;
+}
+.members .card{
+    float: left;
+    width: 33.33%;
+}
+
+.members .card p{
+    text-align: center;
+}
+
+.members .card img{
+    width: 60%;
+    margin-bottom: 16px;
+}
+
+.clearFix{
+    clear: both;
+}
+.tour-section{
+    background-color: #000;
+}
+.tour{
+    padding: 64px 16px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+}
+.tour h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 10px 0;
+    color: #fff;
+}
+.tour p{
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(161, 161, 161);
+    font-style: italic;
+}
+
+.dates li{
+    background-color: #fff;
+    color: rgb(143, 139, 139);
+    list-style: none;
+    padding: 8px 16px;
+    border: solid 1px rgb(182, 180, 180) ;
+    text-align: start;
+    font-size: 15px;
+}
+.dates li span{
+    background-color: rgb(255, 61, 61);
+    color: #fff;
+    display: inline-block;
+    padding: 5px 8px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.dates li .three{
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+    left: 82%;
+}
+.tour-places{
+    padding: 32px 0px;
+    
+}
+
+.tour-places .card{
+    float: left;
+    width: 33.33%;
+    margin-bottom: 16px!important;
+    padding: 0 8px;
+}
+.tour-places .card img{
+    width: 100%;
+}
+.tour-places .card span{
+    text-align: start;
+}
+
+.tour-places .card .place-date{
+    padding: 0 16px;
+    background-color: #fff;
+    margin-top: -15px;
+}
+.tour-places .card .place-date h2{
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    text-align: start;
+    font-weight: 600;
+    
+}
+.tour-places .card .detail{
+    font-style: normal;
+    color: #000;
+    text-align: start;
+}
+.tour-places .card p{
+    text-align: start;
+}
+.tour-places .card .place-date a{
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    margin-left: -95px;
+}
+.tour-places .card .place-date a:hover{
+    color: #000;
+    background-color: rgb(163, 153, 153);
+}
+
+.contact{
+    padding: 64px 16px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+}
+.contact h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 10px 0;
+}
+
+.contact p{
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(161, 161, 161);
+    font-style: italic;
+}
+.contact-form{
+    padding: 32px 0;
+}
+
+.contact .contact-detail{
+    width: 49%;
+    float: left;
+    padding-bottom: 10px;
+}
+.contact .contact-detail ul li{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    list-style: none;
+    text-transform: none;
+    margin-bottom: 3px;
+}
+.contact .contact-detail ul li i{
+    margin-right: 10px;
+}
+
+.submit-form{
+    width: 49.99%;
+    float: right;
+}
+.submit-form .name{
+    display: block;
+    padding: 8px 6px;
+    border: 1px solid rgb(126, 126, 126);
+    width: 49%;
+    float: left;
+}
+.submit-form .email{
+    display: block;
+    padding: 8px 6px;
+    border: 1px solid rgb(126, 126, 126);
+    width: 49%;
+    float: right;
+}
+.submit-form input{
+    font-size: 15px;
+}
+.submit-form .message{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    border: 1px solid rgb(126, 126, 126);
+    margin-top: 10px;
+}
+
+.submit-btn{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 16px 12px;
+    margin: 16px 0;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: rgb(155, 153, 153);
+    color: #000;
+}
+
+.map img{
+    max-width: 100%;
+    height: auto;       
+}
+.place-date h2{
+    padding-top: 10px;
+}
